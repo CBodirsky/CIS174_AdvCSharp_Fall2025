@@ -1,0 +1,9 @@
+﻿@model Student
+
+<li>
+    @Model.FirstName @Model.LastName
+    @if (ViewBag.ShowGrade == true)
+    {
+        <span> — Grade: @Model.Grade</span>
+    }
+</li>

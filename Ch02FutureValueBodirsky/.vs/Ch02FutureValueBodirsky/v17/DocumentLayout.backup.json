@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|d:\\college classes\\cis 174 - adv c#\\ch02futurevaluebodirsky\\models\\futurevaluemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|solutionrelative:models\\futurevaluemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|d:\\college classes\\cis 174 - adv c#\\ch02futurevaluebodirsky\\ch02futurevaluebodirsky.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|solutionrelative:ch02futurevaluebodirsky.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|d:\\college classes\\cis 174 - adv c#\\ch02futurevaluebodirsky\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|d:\\college classes\\cis 174 - adv c#\\ch02futurevaluebodirsky\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|d:\\college classes\\cis 174 - adv c#\\ch02futurevaluebodirsky\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|d:\\college classes\\cis 174 - adv c#\\ch02futurevaluebodirsky\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|d:\\college classes\\cis 174 - adv c#\\ch02futurevaluebodirsky\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|d:\\college classes\\cis 174 - adv c#\\ch02futurevaluebodirsky\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|d:\\college classes\\cis 174 - adv c#\\ch02futurevaluebodirsky\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662F6F14-F270-4ABD-9A12-7681814B0445}|Ch02FutureValueBodirsky.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T22:54:24.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T22:51:36.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-22T22:46:32.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T20:38:34.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ch02FutureValueBodirsky.csproj",
+              "DocumentMoniker": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Ch02FutureValueBodirsky.csproj",
+              "RelativeDocumentMoniker": "Ch02FutureValueBodirsky.csproj",
+              "ToolTip": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Ch02FutureValueBodirsky.csproj",
+              "RelativeToolTip": "Ch02FutureValueBodirsky.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-22T20:31:53.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FutureValueModel.cs",
+              "DocumentMoniker": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Models\\FutureValueModel.cs",
+              "RelativeDocumentMoniker": "Models\\FutureValueModel.cs",
+              "ToolTip": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Models\\FutureValueModel.cs",
+              "RelativeToolTip": "Models\\FutureValueModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T20:35:14.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T20:32:18.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T20:25:51.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\College Classes\\CIS 174 - Adv C#\\Ch02FutureValueBodirsky\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T20:10:35.4Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

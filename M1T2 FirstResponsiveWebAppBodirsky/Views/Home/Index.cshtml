@@ -1,0 +1,37 @@
+﻿@model M1T2_FirstResponsiveWebAppBodirsky.Models.UserAgeModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        @* Meta tag that creates responsive design *@
+        <meta name="viewport" content="width=device-width">
+        <title>Index</title>
+    </head>
+    <body>
+        <h1>User Age Calculator</h1>
+        <form asp-action="Index" method="post">
+            <div asp-validation-summary="All"></div>
+            <div class="form-group">
+                <label asp-for="Name">Your name: </label>
+                <input asp-for="Name" />
+            </div>
+            <label asp-for="Birthday"> Your birthday: </label>
+            @* A date format is applied, calendar entry setup available*@
+            <input asp-for="Birthday" type="date" class="form-control" />
+            <div>
+                <label>Your age today! </label>
+                <input value="@ViewBag.TodayAge" readonly />
+            </div>
+            <div>
+                <label>Your age at the end of the year: </label>
+                <input value="@ViewBag.ThisYearAge" readonly />
+            </div>
+            @* submit button and clear link *@
+            <button type="submit">Calculate</button>
+            <a asp-action="Index">Clear</a>
+        </form>
+</body>
+</html>
