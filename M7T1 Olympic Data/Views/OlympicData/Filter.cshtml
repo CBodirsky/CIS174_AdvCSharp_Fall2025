@@ -1,0 +1,30 @@
+﻿@model List<OlympicEntry>
+
+<div class="row">
+    <div class="col-3">
+
+        
+        <h5>Filter by Game</h5>
+<div class="d-flex flex-column">
+    <a asp-action="Filter" asp-route-game="ALL" asp-route-category="@ViewData["CurrentCategory"]">All Games</a>
+    <a asp-action="Filter" asp-route-game="Winter Olympics" asp-route-category="@ViewData["CurrentCategory"]">Winter Olympics</a>
+    <a asp-action="Filter" asp-route-game="Summer Olympics" asp-route-category="@ViewData["CurrentCategory"]">Summer Olympics</a>
+    <a asp-action="Filter" asp-route-game="Paralympics" asp-route-category="@ViewData["CurrentCategory"]">Paralympics</a>
+    <a asp-action="Filter" asp-route-game="Youth Olympic Games" asp-route-category="@ViewData["CurrentCategory"]">Youth Olympic Games</a>
+</div>
+
+        <h5>Filter by Category</h5>
+        <div class="d-flex flex-column">
+        <a asp-action="Filter" asp-route-game="@ViewData["CurrentGame"]" asp-route-category="ALL">ALL Categories</a>
+        <a asp-action="Filter" asp-route-game="@ViewData["CurrentGame"]" asp-route-category="Indoor">Indoor</a>
+        <a asp-action="Filter" asp-route-game="@ViewData["CurrentGame"]" asp-route-category="Outdoor">Outdoor</a>
+        </div>
+    </div>
+
+    <div class="col-9">
+        @foreach (var entry in Model.OrderBy(e => e.Country))
+        {
+            <img src="@entry.FlagPath" title="@($"{entry.Country} - {entry.Game} - {entry.Category}")" style="width:100px; margin:10px;" />
+        }
+    </div>
+</div>
