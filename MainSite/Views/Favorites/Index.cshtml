@@ -1,0 +1,21 @@
+﻿@model List<OlympicEntry>
+@{
+ViewData["Title"] = " Olympic Data Favorites";
+}
+<a asp-controller="OlympicData" asp-action="Index" class="btn btn-secondary">Return to Olympics Page</a>
+<form asp-controller="Favorites" asp-action="Clear" method="post">
+    <button type="submit" class="btn btn-danger">Clear Favorites</button>
+<h2>Your Favorites</h2>
+
+<div class="row">
+    @foreach (var entry in Model)
+    {
+        <div class="col-3 text-center" style="margin-bottom:20px;">
+            <img src="@entry.FlagPath" title="@($"{entry.Country} - {entry.Game} - {entry.Sport}")" style="width:100px;" />
+            <p>@entry.Country</p>
+        </div>
+    }
+</div>
+
+
+</form>
