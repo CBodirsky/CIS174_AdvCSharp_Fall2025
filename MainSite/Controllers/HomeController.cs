@@ -9,8 +9,6 @@ namespace MainSite.Controllers
     {
         private ContactContext context { get; set; }
 
-        //public HomeController(ContactContext ctx) => context = ctx;
-
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ContactContext ctx, ILogger<HomeController> logger)
@@ -21,7 +19,6 @@ namespace MainSite.Controllers
 
         public IActionResult Index()
         {
-            //var contacts = context.Contacts.Include(m => m.Address).OrderBy(m => m.Name).ToList();
             var contacts = context.Contacts.OrderBy(m => m.Name).ToList();
             var favorites = FavoriteManager.GetFavorites(HttpContext.Session);
             ViewBag.FavoriteCount = favorites.Count;

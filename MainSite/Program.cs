@@ -1,5 +1,7 @@
-using Microsoft.EntityFrameworkCore;
 using MainSite.Models;
+using MainSite.Views.ToDoList;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace MainSite
 {
@@ -19,6 +21,11 @@ namespace MainSite
             //Dependency Injection
             builder.Services.AddDbContext<ContactContext>(options => options.UseSqlServer(
                 builder.Configuration.GetConnectionString("ContactContext")));
+
+
+            builder.Services.AddDbContext<ToDoContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("ToDoContext")));
+
 
             var app = builder.Build();
 
@@ -57,6 +64,8 @@ namespace MainSite
                 var context = scope.ServiceProvider.GetRequiredService<ContactContext>();
                 //context.Database.Migrate();
             }
+
+
 
 
             app.Run();

@@ -1,0 +1,49 @@
+﻿@model MainSite.Models.TicketFilterViewModel
+@{
+    ViewData["Title"] = "Ticket List";
+    var tickets = ViewBag.Tickets as List<MainSite.Models.Ticket>;
+}
+
+
+
+<table>
+    <thead>
+        <tr>
+            <a class="btn btn-success" asp-controller="ToDoList" asp-action="Create">Add New Ticket</a>
+
+        </tr>
+        <div></div>
+        <tr>
+            <form asp-action="Index" method="get">
+                <select asp-for="Status" asp-items="Html.GetEnumSelectList<MainSite.Models.TicketStatus>()">
+                    <option value="">All</option>
+                </select>
+                <button type="submit">Filter</button>
+            </form>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Sprint</th>
+            <th>Points</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ticket in tickets)
+        {
+            <tr>
+                <td>@ticket.Name</td>
+                <td>@ticket.Description</td>
+                <td>@ticket.SprintNumber</td>
+                <td>@ticket.PointValue</td>
+                <td>@ticket.Status</td>
+                <td>
+                <a asp-action="Edit" asp-route-id="@ticket.Id" class="btn btn-sm btn-warning">Edit</a>
+                </td>
+            </tr>
+            
+
+        }
+    </tbody>
+</table>
