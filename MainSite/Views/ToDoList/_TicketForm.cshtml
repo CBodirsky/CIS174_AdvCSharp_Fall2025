@@ -1,27 +1,49 @@
 ﻿@model MainSite.Models.Ticket
 
-<form asp-action="@ViewData["FormAction"]" method="post">
+@{
+    var formAction = ViewData["FormAction"]?.ToString() ?? "Create";
+}
+<form asp-action="@formAction" method="post">
+
+    <div asp-validation-summary="All" class="text-danger">* Required fields</div>
+
+
     <div class="form-group">
-        <label asp-for="Name"></label>
+        <label asp-for="Name" class="form-label">Name<span class="text-danger">*</span></label>
         <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label asp-for="Description"></label>
+        <label asp-for="Description" class="form-label">Description<span class="text-danger">*</span></label>
         <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label asp-for="SprintNumber"></label>
+        <label asp-for="SprintNumber" class="form-label">Sprint Number<span class="text-danger">*</span></label>
         <input asp-for="SprintNumber" class="form-control" type="number" />
+        <span asp-validation-for="SprintNumber" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label asp-for="PointValue"></label>
+        <label asp-for="PointValue" class="form-label">Point Value<span class="text-danger">*</span></label>
         <input asp-for="PointValue" class="form-control" type="number" />
+        <span asp-validation-for="PointValue" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label asp-for="Status"></label>
+        <label asp-for="Status" class="form-label">Status<span class="text-danger">*</span></label>
         <select asp-for="Status" asp-items="Html.GetEnumSelectList<MainSite.Models.TicketStatus>()" class="form-control"></select>
+        <span asp-validation-for="Status" class="text-danger"></span>
     </div>
+
 
     <button type="submit" class="btn btn-primary">Save</button>
     <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
