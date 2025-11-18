@@ -1,0 +1,23 @@
+﻿@model MainSite.Models.TicketStatus
+
+@{
+    var cssClass = Model switch
+    {
+        MainSite.Models.TicketStatus.ToDo => "btn btn-secondary",
+        MainSite.Models.TicketStatus.InProgress => "btn btn-warning",
+        MainSite.Models.TicketStatus.QA => "btn btn-info",
+        MainSite.Models.TicketStatus.Done => "btn btn-success",
+        _ => "btn btn-light"
+    };
+
+    var displayText = Model switch
+    {
+        MainSite.Models.TicketStatus.ToDo => "To Do",
+        MainSite.Models.TicketStatus.InProgress => "In Progress",
+        MainSite.Models.TicketStatus.QA => "QA",
+        MainSite.Models.TicketStatus.Done => "Done",
+        _ => "Unknown"
+    };
+}
+
+<button class="@cssClass">@Model</button>

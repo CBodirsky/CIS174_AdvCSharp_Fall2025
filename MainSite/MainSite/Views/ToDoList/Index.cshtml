@@ -37,7 +37,7 @@
                 <td>@ticket.Description</td>
                 <td>@ticket.SprintNumber</td>
                 <td>@ticket.PointValue</td>
-                <td>@ticket.Status</td>
+                <td>@await Component.InvokeAsync("StatusButton", new { status = ticket.Status })</td>
                 <td>
                 <a asp-action="Edit" asp-route-id="@ticket.Id" class="btn btn-sm btn-warning">Edit</a>
                 </td>
